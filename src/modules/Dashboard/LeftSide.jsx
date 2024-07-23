@@ -54,7 +54,7 @@ function LeftSide() {
           <div className='mx-4 text-primary lg:text-xl'>
             Messages
           </div>
-          <div className='overflow-y-scroll sm:overflow-hidden h-[350px]'>{
+          <div className='overflow-y-scroll sm:overflow-hidden sm:h-full h-[350px]'>{
             contacts.map(({name,status,img},i)=>{
               return(
                 <div key={i}  >
