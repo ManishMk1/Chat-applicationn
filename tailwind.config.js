@@ -12,6 +12,9 @@ export default {
         'secondary':'#f3f5ff',
         'light':'#f9aff',
       },
+      screens:{
+        'mobile':'320px'
+      }
     },
   },
   plugins: [],
