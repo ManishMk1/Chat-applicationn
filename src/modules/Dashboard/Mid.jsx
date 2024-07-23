@@ -11,7 +11,7 @@ function Mid() {
       <p className='text-sm'>Online</p>
       </div>
       <div>
-      <IoCallOutline className='text-3xl text-gray-500 mr-4 cursor-pointer' />
+      <IoCallOutline className='text-xl sm:text-3xl text-gray-500 mr-4 cursor-pointer' />
       </div>
       
     </div>
