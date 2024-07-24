@@ -18,7 +18,7 @@ function Mid() {
       </div>
       
     </div>
-    <div className='h-[75%] w-full overflow-y-scroll no-scrollbar border-b'>
+    <div className='h-[85%] w-full overflow-y-scroll no-scrollbar border-b'>
       <div className='sm:px-14 px-4 sm:py-14 py-7'>
     <div className='max-w-[80%] sm:max-w-[40%] rounded-b-xl rounded-tr-xl bg-secondary mb-6 p-4'>
       Lorem ipsum dolor sit amet consectetur dfsdfasfasd cdcvxcvx fSDSDf fsfd   dfsdf  sdfsd 
