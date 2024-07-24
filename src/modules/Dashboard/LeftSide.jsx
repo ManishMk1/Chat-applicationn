@@ -61,7 +61,7 @@ function LeftSide() {
                   <div className='flex  items-center justify-start mx-4 lg:m-4 my-4 border-b pb-2'>
                     <div className='flex items-center'>
                     <div className='border rounded-full p-1'>
-            <img src={img} width={40} height={40} className='rounded-xl'/>
+            <img src={img} width={50} height={40} className='rounded-xl'/>
             </div>
           
             <div className='ml-4'>

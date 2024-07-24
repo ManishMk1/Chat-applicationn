@@ -5,7 +5,7 @@ function DashBoard() {
   
   return (
     <div className='w-screen flex'>
-        <div className='w-1.25/4 sm:w-1/4 h-screen bg-secondary'>
+        <div className='w-1/4 h-screen bg-secondary'>
           <LeftSide />
         </div>
         <div className='w-2/4 h-screen bg-white flex flex-col items-center'>
