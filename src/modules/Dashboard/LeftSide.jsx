@@ -41,7 +41,7 @@ function LeftSide() {
             </div>
           
             <div className='ml-4'>
-              <h3  className=' text-sm lg:text-2xl'>
+              <h3  className='text-sm lg:text-2xl'>
                 Chat Connect
               </h3>
               <p className=' text-sm lg:text-x font-light'>My Account</p>
@@ -54,10 +54,10 @@ function LeftSide() {
           <div className='mx-4 text-primary lg:text-xl'>
             Messages
           </div>
-          <div className='overflow-y-scroll sm:overflow-hidden sm:h-full h-[350px]'>{
+          <div className='max-h-[60vh] w-full mb-4 overflow-y-scroll no-scrollbar'>{
             contacts.map(({name,status,img},i)=>{
               return(
-                <div key={i}  >
+                <div key={i} className='' >
                   <div className='flex  items-center justify-start mx-4 lg:m-4 my-4 border-b pb-2'>
                     <div className='flex items-center'>
                     <div className='border rounded-full p-1'>

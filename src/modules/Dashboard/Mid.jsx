@@ -1,6 +1,9 @@
 import React from 'react'
 import { IoCallOutline } from "react-icons/io5";
 import Avatar from '../../assets/avatar-svgrepo-com.svg'
+import Innput from '../../components/Innput'
+import { IoIosSend } from "react-icons/io";
+import { CiSquarePlus } from "react-icons/ci";
 function Mid() {
   return (
     <>
@@ -15,8 +18,27 @@ function Mid() {
       </div>
       
     </div>
-    <div className='h-[75%] w-full border'>
-
+    <div className='h-[75%] w-full overflow-y-scroll no-scrollbar border-b'>
+      <div className='sm:px-14 px-4 sm:py-14 py-7'>
+    <div className='max-w-[80%] sm:max-w-[40%] rounded-b-xl rounded-tr-xl bg-secondary mb-6 p-4'>
+      Lorem ipsum dolor sit amet consectetur dfsdfasfasd cdcvxcvx fSDSDf fsfd   dfsdf  sdfsd 
+    </div>
+    <div className='max-w-[80%] sm:max-w-[40%] rounded-b-xl rounded-tl-xl ml-auto bg-primary  mb-6 text-white p-4'>
+      dsfadfhsf gs dgsfdfg sg sgsd
+    </div>
+    <div className='max-w-[80%] sm:max-w-[40%] rounded-b-xl rounded-tr-xl bg-secondary mb-6 p-4'>
+      Lorem ipsum dolor sit amet consectetur dfsdfasfasd cdcvxcvx fSDSDf fsfd   dfsdf  sdfsd 
+    </div>
+    <div className='max-w-[80%] sm:max-w-[40%] rounded-b-xl rounded-tl-xl ml-auto bg-primary  mb-6 text-white p-4'>
+      dsfadfhsf gs dgsfdfg sg sgsd
+    </div>
+      </div>
+    </div>
+    <div className='w-full flex items-center justify-center py-7 lg:p-14 mx-1'>
+      <Innput type="text" placeholder='Enter a message' isClassName='w-[75%]' className='w-full p-2 px-4 border-0 shadow-lg bg-light focus:border-0 focus:outline-none '/>
+      <IoIosSend className='text-3xl sm:text-4xl ml-2 sm:ml-4 mt-2 cursor-pointer bg-secondary rounded-full p-1 '/>
+      <CiSquarePlus className='text-4xl sm:text-5xl ml-2 sm:ml-4 mt-2 cursor-pointer bg-secondary rounded-full 
+      p-1'/>
     </div>
     </>
   )
